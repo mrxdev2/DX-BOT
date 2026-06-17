@@ -1,1 +1,2 @@
-web: npm run start:optimized
+worker: npm run start:optimized
+
