@@ -3,7 +3,6 @@
   "description": "High performance multi-device WhatsApp bot",
   "keywords": ["whatsapp-bot", "baileys", "mega-md"],
   "repository": "https://github.com/GlobalTechInfo/MEGA-MD",
-  "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
       "description": "Your session ID (get it by running the bot locally first)",
@@ -73,7 +72,7 @@
     { "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" }
   ],
   "formation": {
-    "web": {
+    "worker": {
       "quantity": 1,
       "size": "basic"
     }
