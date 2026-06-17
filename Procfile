@@ -1,2 +1,2 @@
-worker: npm run start:optimized
+worker: node index.js
 
